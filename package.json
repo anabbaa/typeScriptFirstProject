@@ -1,13 +1,13 @@
 {
   "name": "firstproject",
-  "homepage": "https://anabbaa.github.io/typeScriptFirstProject",
+  "homepage": "https://anabbaa.github.io/typeScriptFirstProject.git",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server",
-    "build": "webpack --config webpack.config.prod.js",
+    "build": "webpack --mode=development",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
